@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "495163212648",
+    "project_id": "projetoloja-466cf",
+    "storage_bucket": "projetoloja-466cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495163212648:android:f4cec744ce151037f98cdd",
+        "android_client_info": {
+          "package_name": "br.com.loja.loja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495163212648-tlnqmon7d6q906pru3gvl1flhhsigl19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjGJqN4tOMNcJOnPqf0llImCE8WVLIetY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495163212648-tlnqmon7d6q906pru3gvl1flhhsigl19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
