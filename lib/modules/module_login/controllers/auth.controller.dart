@@ -22,9 +22,9 @@ class AuthController extends GetxController {
     }
   }
 
-  Future<void> signOut() async {
+  Future<void> signOut(String token) async {
     try {
-      await _signOutUseCase();
+      await _signOutUseCase(token);
       currentUser.value = null;
       Get.offAllNamed('/');
     } catch (e) {

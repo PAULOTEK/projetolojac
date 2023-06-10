@@ -1,13 +1,15 @@
 class UserModel {
   final String? id;
   final String? email;
+  final String? token;
 
-  UserModel({this.id, this.email});
+  UserModel({this.id, this.email, this.token});
 
-  static UserModel fromFirebaseUser(UserModel user) {
+  factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
-      id: user.id,
-      email: user.email,
+      id: json['id'],
+      email: json['email'],
+      token: json['token'],
     );
   }
 }

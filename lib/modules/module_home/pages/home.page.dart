@@ -19,7 +19,8 @@ class HomePage extends StatelessWidget {
           ElevatedButton(
             child: const Text('Sair'),
             onPressed: () {
-              _authController.signOut();
+              final token = _authController.currentUser.value?.token;
+              _authController.signOut(token!);
             },
           ),
           ElevatedButton(
